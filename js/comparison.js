@@ -16,4 +16,17 @@ showEquestion("4 <= 5", 4 <= 5)
 
 showEquestion("10 != 6", 10 != 6)
 
-// console.log("== and === operators");
+console.log("== and === operators");
+
+showEquestion("5 == \"5\"", 5 == "5");
+showEquestion("5 === \"5\"", 5 === "5");
+
+showEquestion("false == 0", false == 0);
+showEquestion("false === 0", false === 0);
+showEquestion("undefined == null", undefined == null);
+showEquestion("undefined === null", undefined === null);
+showEquestion("\"\" == 0", "" == 0);
+showEquestion("\"\" === 0", "" === 0);
+
+showEquestion("6 !== \"6\"", 6 !== "6");
+
