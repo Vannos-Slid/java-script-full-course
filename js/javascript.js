@@ -1,10 +1,26 @@
-const func = (newName, args) => {
-    args = newName;
-    console.log(args);
+const func = (newValue, variable) => {
+    variable = newValue;
+    console.log(variable);
 }
 
-let username = "gay";
+const username = "Nigger"
 console.log(username);
 
-func("Args", username);
-func("Harry", username);
+// string
+let name = "abc123.?!$";
+name = ``;
+name = '';
+
+// number
+let age = 12;
+
+console.log(7 + 9);
+console.log("7" + 9);
+console.log(7 + "9");
+
+// boolean
+let isLoggedIn;
+func(false, isLoggedIn);
+func(true, isLoggedIn);
+
+console.log(age > 20);
